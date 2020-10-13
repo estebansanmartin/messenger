@@ -1,0 +1,123 @@
+//Google font
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;700;900&family=Roboto+Mono:ital,wght@0,100;0,300;0,500;1,300&display=swap')
+  
+//Variables
+$primary: #0072ff
+$secondary: #00c6ff
+$blue: #1c2541
+$viola: #3a0ca3
+$viola-light: #7209b7
+$rossa: #ff6b6b
+$white: #f7fff7
+$giallo: #ffe66d
+$verde: #5bc0be
+$cyan: #6fffe9
+$nero: #0b132b
+$gris: #3a506b
+$gris-light: #c9d6ff
+$gradient: linear-gradient(45deg, #c9d6ff 30%, #e2e2e2 90%)
+$gradiente: linear-gradient(180deg,  #00c6ff 5%, #0072ff 100%)
+$message1: linear-gradient(120deg,  #1c92d2 30%, #b2fefa 90%)
+$message2: linear-gradient(120deg,  #74ebd5 30%, #acb6e5 90%)
+$padding: 50px
+$padding20: 20px
+
+$title: 'Raleway', sans-serif
+$subtitle: 'Roboto Mono', monospace
+
+.App 
+  margin: 0px !important
+  text-align: center
+  background-color: $gris-light
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230072ff' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+
+.title 
+  font-family: $title
+  color: $primary
+  font-weight: 900
+  letter-spacing: 5px
+  font-size: 3em
+
+.image
+  padding: $padding
+
+.App-link 
+  color: $rossa
+
+.message 
+  padding: 10px
+  margin: 10px
+  width: fit-content
+
+.message_user
+  margin-left: auto
+  color: white
+  text-align: right !important
+
+.message_useCard
+  background-color: $primary !important
+  color: $white !important
+
+.message_guestCard
+  background-color: $secondary !important
+  color: $white !important
+
+.text-chat
+  font-family: $subtitle !important
+  font-weight: 300 !important
+  letter-spacing: 2px !important
+
+.card
+  flex-direction: column
+  justify-content: center
+  width: fit-content
+  margin-left: auto
+  margin-right: auto
+  background: $gradiente !important
+
+.card-title 
+  font-family: $subtitle !important
+  color: $white
+  font-weight: 500 !important
+  letter-spacing: 2px !important
+
+.avatar
+  flex-direction: column
+  justify-content: center
+  margin-left: auto
+  margin-right: auto
+
+.app_form
+  background: $gradiente
+  display: flex !important
+  flex-direction: column !important
+  justify-content: center !important
+  width: 90% !important
+  margin-left: $padding20
+  margin-right: $padding20
+  padding: $padding20
+  margin-bottom: $padding20
+  position: fixed
+  z-index: 1
+  color: $primary !important
+  margin-top: 20px
+
+.app_formControl
+  display: flex !important
+  flex-direction: row !important
+
+.app_iconButton 
+  flex: 0
+
+.app_input 
+  flex: 1
+
+.footer
+  font-family: $subtitle
+  color: $primary
+  font-weight: 400
+  padding: 10px
+  font-size: smaller
+  letter-spacing: 5px
+  text-align: center
+  text-transform: uppercase
